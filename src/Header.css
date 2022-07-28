@@ -1,5 +1,12 @@
 .header {
+  position: sticky;
+  top: 0;
   display: flex;
+  justify-content: space-evenly;
+  border: 0.1px solid lightgray;
+  padding-bottom: 10px;
+  width: 100%;
+  z-index: 999;
 }
 .header__left {
   display: flex;
@@ -27,4 +34,8 @@
   border: none;
   background: none;
   background-color: #eef3f8;
+}
+
+.header__right {
+  display: flex;
 }
