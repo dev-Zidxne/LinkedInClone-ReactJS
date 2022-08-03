@@ -14,7 +14,7 @@ function Header() {
       </div>
       <div className="header__search">
         <SearchRoundedIcon />
-        <input type="text" />
+        <input placeholder="Search" type="text" />
       </div>
       <div className="header__right">
         <HeaderOption Icon={HomeRoundedIcon} title="Home" />
