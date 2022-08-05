@@ -29,6 +29,7 @@
   align-items: center;
   border-radius: 5px;
   color: gray;
+  height: 22px;
 }
 .header__search > input {
   outline: none;
